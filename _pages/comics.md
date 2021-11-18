@@ -5,7 +5,7 @@ permalink: /comics/
 author_profile: true
 ---
 
-
+**Some of my favorite comics :)**
 
 
 <a href="https://abstrusegoose.com/249">
