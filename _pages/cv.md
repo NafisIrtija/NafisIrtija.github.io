@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Download my CV](https://NafisIrtija.github.io/files/CV.pdf)
+[Download my CV](https://NafisIrtija.github.io/files/cv.pdf)
 
 
 <!-- Research Interests
