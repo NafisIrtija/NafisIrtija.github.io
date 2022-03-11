@@ -21,8 +21,8 @@ main:
   - title: "CV"
     url: /cv/
   
-  - title: "Favorite Comics"
-    url: /comics/
+#   - title: "Favorite Comics"
+#     url: /comics/
     
   #- title: "Guide"
    # url: /markdown/
