@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafis Irtija - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+        
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Custom color palette: 60% White, 30% Dark Gray, 10% Blue Accent */
+        :root {
+            --primary: #ffffff;     /* 60% - White/Light backgrounds */
+            --secondary: #374151;   /* 30% - Dark gray for text */
+            --accent: #3b82f6;      /* 10% - Blue for highlights */
+        }
+        
+        .text-primary { color: var(--primary); }
+        .text-secondary { color: var(--secondary); }
+        .text-accent { color: var(--accent); }
+        .bg-primary { background-color: var(--primary); }
+        .bg-secondary { background-color: var(--secondary); }
+        .bg-accent { background-color: var(--accent); }
+        .border-accent { border-color: var(--accent); }
+        
+        .section-spacing { padding: 4rem 0; }
+        
+        @media (max-width: 768px) {
+            .section-spacing { padding: 2rem 0; }
+        }
+    </style>
+</head>
+<body class="bg-primary text-secondary leading-relaxed">
+    
+    <!-- Header/Hero -->
+    <section class="section-spacing">
+        <div class="max-w-2xl mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-light mb-4 text-secondary">
+                Nafis Irtija
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 font-light">
+                PhD in Computer Engineering | Cybersecurity | Network Security
+            </p>
+        </div>
+    </section>
+
+    <!-- Summary -->
+    <section class="section-spacing border-t border-gray-200">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-2xl font-normal mb-6 text-secondary">
+                Summary
+            </h2>
+            <p class="text-gray-600 leading-7 mb-4">
+                I'm a passionate full-stack developer with expertise in modern web technologies. 
+                I focus on creating clean, efficient solutions that solve real-world problems.
+            </p>
+            <p class="text-gray-600 leading-7">
+                With a strong foundation in both frontend and backend development, I enjoy 
+                building applications that are both functional and user-friendly.
+            </p>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section-spacing border-t border-gray-200">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-2xl font-normal mb-8 text-secondary">
+                Experience
+            </h2>
+            
+            <div class="space-y-8">
+                <div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-medium text-secondary">Senior Developer</h3>
+                        <span class="text-sm text-gray-500">2022 - Present</span>
+                    </div>
+                    <p class="text-accent text-sm mb-2">Company Name</p>
+                    <p class="text-gray-600 text-sm leading-6">
+                        Led development of web applications serving 10k+ users. 
+                        Implemented scalable solutions using React and Node.js.
+                    </p>
+                </div>
+                
+                <div>
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="font-medium text-secondary">Frontend Developer</h3>
+                        <span class="text-sm text-gray-500">2020 - 2022</span>
+                    </div>
+                    <p class="text-accent text-sm mb-2">Previous Company</p>
+                    <p class="text-gray-600 text-sm leading-6">
+                        Developed responsive user interfaces and collaborated with design teams 
+                        to create intuitive user experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section-spacing border-t border-gray-200">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-2xl font-normal mb-8 text-secondary">
+                Selected Projects
+            </h2>
+            
+            <div class="space-y-8">
+                <div>
+                    <h3 class="font-medium text-secondary mb-2">E-Commerce Platform</h3>
+                    <p class="text-gray-600 text-sm leading-6 mb-3">
+                        Full-stack web application with payment integration, inventory management, 
+                        and admin dashboard. Built with React, Node.js, and MongoDB.
+                    </p>
+                    <div class="flex space-x-4 text-sm">
+                        <a href="#" class="text-accent hover:underline">
+                            <i class="fas fa-external-link-alt mr-1"></i>Live Demo
+                        </a>
+                        <a href="#" class="text-accent hover:underline">
+                            <i class="fab fa-github mr-1"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="font-medium text-secondary mb-2">Task Management App</h3>
+                    <p class="text-gray-600 text-sm leading-6 mb-3">
+                        Collaborative productivity application with real-time updates and team features. 
+                        Developed using Vue.js and Express with Socket.io integration.
+                    </p>
+                    <div class="flex space-x-4 text-sm">
+                        <a href="#" class="text-accent hover:underline">
+                            <i class="fas fa-external-link-alt mr-1"></i>Live Demo
+                        </a>
+                        <a href="#" class="text-accent hover:underline">
+                            <i class="fab fa-github mr-1"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="font-medium text-secondary mb-2">Portfolio Website</h3>
+                    <p class="text-gray-600 text-sm leading-6 mb-3">
+                        Responsive portfolio site showcasing design and development work. 
+                        Built with HTML, CSS, and vanilla JavaScript for optimal performance.
+                    </p>
+                    <div class="flex space-x-4 text-sm">
+                        <a href="#" class="text-accent hover:underline">
+                            <i class="fas fa-external-link-alt mr-1"></i>Live Demo
+                        </a>
+                        <a href="#" class="text-accent hover:underline">
+                            <i class="fab fa-github mr-1"></i>GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section-spacing border-t border-gray-200">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-2xl font-normal mb-8 text-secondary">
+                Skills
+            </h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="font-medium text-secondary mb-3">Frontend</h3>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>JavaScript / TypeScript</li>
+                        <li>React / Vue.js</li>
+                        <li>HTML5 / CSS3</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-medium text-secondary mb-3">Backend</h3>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>Node.js / Express</li>
+                        <li>Python / Django</li>
+                        <li>MongoDB / PostgreSQL</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-medium text-secondary mb-3">Tools</h3>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>Git / GitHub</li>
+                        <li>Docker</li>
+                        <li>AWS / Vercel</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-medium text-secondary mb-3">Other</h3>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li>UI/UX Design</li>
+                        <li>Responsive Design</li>
+                        <li>Performance Optimization</li>
+                        <li>Testing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section-spacing border-t border-gray-200">
+        <div class="max-w-2xl mx-auto px-6">
+            <h2 class="text-2xl font-normal mb-8 text-secondary">
+                Contact
+            </h2>
+            
+            <div class="space-y-4">
+                <p class="text-gray-600 leading-7 mb-6">
+                    I'm always interested in discussing new opportunities and projects. 
+                    Feel free to reach out if you'd like to work together.
+                </p>
+                
+                <div class="space-y-3">
+                    <a href="mailto:your.email@example.com" class="flex items-center text-accent hover:underline">
+                        <i class="fas fa-envelope mr-3 w-5"></i>
+                        your.email@example.com
+                    </a>
+                    
+                    <!-- <a href="https://linkedin.com/in/yourname" class="flex items-center text-accent hover:underline">
+                        <i class="fab fa-linkedin mr-3 w-5"></i>
+                        linkedin.com/in/yourname
+                    </a> -->
+                    
+                    <a href="https://github.com/NafisIrtija" class="flex items-center text-accent hover:underline">
+                        <i class="fab fa-github mr-3 w-5"></i>
+                        github.com/NafisIrtija
+                    </a>
+                    
+                    <a href="https://yourwebsite.com" class="flex items-center text-accent hover:underline">
+                        <i class="fas fa-globe mr-3 w-5"></i>
+                        yourwebsite.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-spacing border-t border-gray-200 mt-8">
+        <div class="max-w-2xl mx-auto px-6 text-center">
+            <p class="text-sm text-gray-500">
+                © 2025 Nafis Irtija. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
